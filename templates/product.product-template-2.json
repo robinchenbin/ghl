@@ -88,14 +88,14 @@
         "heading_e9VrqL": {
           "type": "heading",
           "settings": {
-            "heading": "product template 1 - default",
+            "heading": "product template 2",
             "heading_size": "h1"
           }
         },
         "text_47tVfq": {
           "type": "text",
           "settings": {
-            "text": "<p>Specializing in the production of chandeliers, ceiling lights, wall lights, table lights, and floor lights, Posiosa also offers a range of LED lighting services. Our factory and R&D department enable us to customize non-standard chandeliers and other decorative lighting solutions tailored to our customers' specific requirements.<br/><br/></p>"
+            "text": "<p>This is a new product template based on the default one</p><p>Specializing in the production of chandeliers, ceiling lights, wall lights, table lights, and floor lights, Posiosa also offers a range of LED lighting services. Our factory and R&D department enable us to customize non-standard chandeliers and other decorative lighting solutions tailored to our customers' specific requirements.<br/><br/></p>"
           }
         },
         "button_MHUqCd": {
