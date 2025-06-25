@@ -40,5 +40,28 @@
     </ul>
 </section>
 
-
+{% schema %}
+    {
+      "name": "Rich text 2",
+      "tag": "section",
+      "class": "section",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Section title",
+          "default": "Statistics"
+        }
+      ],
+      "presets": [
+        {
+          "name": "Rich text 2",
+          "category": "Custom"
+        }
+      ],
+      "disabled_on": {
+        "groups": ["header", "footer"]
+      }
+    }
+    {% endschema %}
     
