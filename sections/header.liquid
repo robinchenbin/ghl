@@ -1,4 +1,3 @@
-push files from local for shopify development, modified on github,then modified on shopify
 <link rel="stylesheet" href="{{ 'component-list-menu.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-search.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-menu-drawer.css' | asset_url }}" media="print" onload="this.media='all'">
@@ -16,6 +15,9 @@ push files from local for shopify development, modified on github,then modified 
 {%- if section.settings.menu_type_desktop == 'mega' -%}
   <link rel="stylesheet" href="{{ 'component-mega-menu.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
+
+<link rel="stylesheet" type="text/css" href="{{ 'ghl.css' | asset_url }}">
+<script src="{{ 'ghl.js' | asset_url }}" defer></script>
 
 <style>
   header-drawer {
