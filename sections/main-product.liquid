@@ -669,7 +669,15 @@
         </section>
       </div>
     </div>
-
+<div style="border: 1px solid red;height:500px;">
+<h2>this is a test</h2>
+{%- if product.description != blank -%}
+<div>
+{{ product.description }}
+</div>
+{%- endif -%}
+  
+</div>
     {% render 'product-media-modal', variant_images: variant_images %}
 
     {% assign popups = section.blocks | where: 'type', 'popup' %}
