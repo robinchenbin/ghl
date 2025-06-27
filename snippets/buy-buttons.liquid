@@ -97,6 +97,14 @@
             {{ form | payment_button }}
           {%- endif -%}
         </div>
+        {% if product.metafields.custom.amazonlink != blank %}
+          <div class="amazon-link-container">
+            <a href="{{ product.metafields.custom.amazonlink }}" target="_blank" class="button button--secondary">
+              Buy from Amazon
+            </a>
+          </div>
+        {% endif %}
+        
       {%- endform -%}
     </product-form>
   {%- else -%}
