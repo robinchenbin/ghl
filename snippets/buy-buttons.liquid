@@ -113,14 +113,7 @@
       </div>
     </div>
   {%- endif -%}
-
-  {% if product.variants.first.inventory_quantity > 0 %}
-   <span>有库存</span>
-{% else %}
-   <span>售罄</span>
-{% endif %}
-
-  <a href="{{product.metafields.custom.amazonlink}}" target="_blank" class="product-form__submit button button--full-width button--secondary">Buy on Amazon</a>
+  
   {%- if show_pickup_availability -%}
     {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
 
