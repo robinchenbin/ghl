@@ -97,8 +97,7 @@
             {{ form | payment_button }}
           {%- endif -%}
         </div>
-      {%- endform -%}
-      <a href="{{product.metafields.custom.amazonlink}}" class="product-form__submit button button--full-width button--secondary">Buy on Amazon</a>
+      {%- endform -%} 
     </product-form>
   {%- else -%}
     <div class="product-form">
@@ -114,7 +113,7 @@
       </div>
     </div>
   {%- endif -%}
-
+  <a href="{{product.metafields.custom.amazonlink}}" target="_blank" class="product-form__submit button button--full-width button--secondary">Buy on Amazon</a>
   {%- if show_pickup_availability -%}
     {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
 
